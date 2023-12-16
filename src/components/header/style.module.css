@@ -1,0 +1,30 @@
+.header {
+    background: linear-gradient(270deg, rgba(46, 49, 146, 0.70) 0%, rgba(212, 20, 90, 0.70) 98.16%);
+    padding: 35px 128px 30px 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tel_block, .town_block, .account_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.icon {
+    color: #FFF;
+}
+.tel, .town, .account {
+    margin-left: 12px;
+    padding-bottom: 6px;
+    color: #FFF;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.tel:hover, .town:hover, .account:hover {
+    text-decoration: underline;
+}
+.account {
+    width: 128px;
+}

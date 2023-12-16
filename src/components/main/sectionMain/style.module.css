@@ -1,0 +1,79 @@
+.main {
+    position: relative;
+    padding: 200px 0 170px 122px;
+}
+.figures1 {
+    position: absolute;
+    top: 0;
+    right: 155px;
+    z-index: 3;
+}
+.figures2 {
+    position: absolute;
+    top: 76px;
+    right: 90px;
+    z-index: 2;
+}
+.figure3 {
+    position: absolute;
+    left: 86px;
+    top: 503px;
+}
+.figure4 {
+    position: absolute;
+    left: 143px;
+    top: 471px;
+}
+.figure5 {
+    position: absolute;
+    left: 437px;
+    top: 149px;
+}
+.figure6 {
+    position: absolute;
+    left: 419px;
+    top: 140px;
+}
+.figure7 {
+    position: absolute;
+    left: 172px;
+    top: 525px;
+}
+
+.main_block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 676px;
+    width: 100%;
+}
+.title {
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.descr {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.button {
+    border-radius: 7px;
+    background: linear-gradient(95deg, #B90160 2.23%, #2E3192 99.51%);
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    padding: 15px 0;
+    width: 180px;
+    cursor: pointer;
+}
+.button:hover {
+    background: linear-gradient(95deg, #b901ae 2.23%, #2e3e92 99.51%); 
+}
